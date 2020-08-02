@@ -1,0 +1,29 @@
+{
+  "name": "html-webpack-inject-temp-afteremit-plugin",
+  "version": "0.0.1",
+  "description": "给打包后的html文件替换指定内容 using webpack, HTMLWebpackPlugin",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djaax/html-webpack-inline-style-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin"
+  ],
+  "author": "Choukin <dustin.jaacks@gmail.com> (https://github.com/djaax)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djaax/html-webpack-inline-style-plugin/issues"
+  },
+  "homepage": "https://github.com/djaax/html-webpack-inline-style-plugin",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1"
+  }
+}

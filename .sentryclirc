@@ -1,0 +1,8 @@
+[auth]
+token=5699bad5844243ab827b7c343252138964ba79e87de54e289eb900933f4a4552
+[defaults]
+url=http://123.57.43.62:9000/
+project=happyread
+org=sentry
+[log]
+level=info
