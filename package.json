@@ -8,19 +8,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/djaax/html-webpack-inline-style-plugin.git"
+    "url": "git@github.com:choukin/html-webpack-inject-temp-afteremit-plugin.git"
   },
   "keywords": [
     "webpack",
     "plugin",
     "html-webpack-plugin"
   ],
-  "author": "Choukin <dustin.jaacks@gmail.com> (https://github.com/djaax)",
+  "author": "choukin <zx2009428@163.com> (https://github.com/choukin)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/djaax/html-webpack-inline-style-plugin/issues"
+    "url": "https://github.com/choukin/html-webpack-inject-temp-afteremit-plugin/issues"
   },
-  "homepage": "https://github.com/djaax/html-webpack-inline-style-plugin",
+  "homepage": "https://github.com/choukin/html-webpack-inject-temp-afteremit-plugin",
   "dependencies": {},
   "devDependencies": {
     "html-webpack-plugin": "^4.3.0",
