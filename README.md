@@ -40,3 +40,16 @@ Add the plugin to your webpack config as follows:
 	...
 }
 ```
+
+
+
+
+### 开发
+-----------
+- npm 包中
+sudo npm link
+
+- 使用的npm中
+sudo npm link package-name
+
+
