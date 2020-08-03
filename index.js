@@ -1,6 +1,6 @@
 'use strict';
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
  
@@ -12,14 +12,15 @@ class HtmlWebpackInjectTempalfterEmitPlugin {
         // 插件逻辑 调用compilation提供的plugin方法
         const sourceStr = this.options.sourceStr
         const targetStr = this.options.targetStr 
-        console.log(this.options,'this.options')
-        compiler.hooks.compilation.tap('HtmlWebpackInjectTempalfterEmitPlugin', 
+        // console.log(this.options,'this.options')
+        compiler.hooks.compilation.tap('HtmlWebpackInjectTempalfterHtmlPlugin', 
         (compilation, callback) => {
 
           compilation.plugin(
-            "html-webpack-plugin-before-html-processing",
+            "html-webpack-plugin-after-html-processing",
             function(htmlPluginData, callback) {
-                console.log(targetStr,'targetStr')
+                // console.log(targetStr,'targetStr')
+                // console.log(htmlPluginData)
                
               let resultHTML = htmlPluginData.html.replace(sourceStr, targetStr);
               // 返回修改后的结果
