@@ -1,6 +1,8 @@
 替换文件内容插件
 ========================================
-
+# [html-webpack-inject-temp-afteremit-plugin](https://github.com/choukin/html-webpack-inject-temp-afteremit-plugin)
+[![](https://img.shields.io/badge/Powered%20by-html%20webpack%20inject%20temp%20afteremit%20plugin-brightgreen.svg)](https://github.com/Noob-Lab/vConsole-launchApp)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/choukin/html-webpack-inject-temp-afteremit-plugin/blob/master/LICENSE)
 
 Installation
 ------------
