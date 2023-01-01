@@ -23,7 +23,7 @@
   "homepage": "https://github.com/choukin/html-webpack-inject-temp-afteremit-plugin",
   "dependencies": {},
   "devDependencies": {
-    "html-webpack-plugin": "^4.3.0",
-    "webpack": "^4.44.1"
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0"
   }
 }
